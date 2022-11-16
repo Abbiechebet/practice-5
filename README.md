@@ -1,1 +1,1 @@
-# practiice on bulding a portfolio and styling it
+# practice on bulding a portfolio and styling it
