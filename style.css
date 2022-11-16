@@ -1,0 +1,80 @@
+ .wrapper{
+    padding: 10px 20px;
+    margin: auto;
+    width: 40%;
+    background-color: #EEEFF0;
+} 
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: -10px;
+
+}
+.name{
+    margin-left: -95px;
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+ul.navigation {
+    display: flex;
+}
+
+ul.navigation li {
+    margin-left: 10px;
+}
+
+ul.navigation li a {
+    color: black;
+}
+
+ul.navigation li button {
+    color: white;
+    background-color: black;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+div.intro {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+ display: flex; 
+}
+
+div.intro-text {
+    margin-left: 25px;
+    width: 320px;  
+}
+
+div.about {
+    justify-content: space-between; /* horizontal plane */
+    align-items: center; /* vertical plane */
+    display: flex;
+    margin-left: 40px;
+}
+
+div.about-text {
+    width: 375px;
+}
+
+div.about-skills span {
+    display: flex;
+    /* margin-top: 10px; */
+}
+
+div.about-skills span li {
+    margin: 3px;
+    text-transform: uppercase;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 13px;
+}
